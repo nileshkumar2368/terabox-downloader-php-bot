@@ -33,3 +33,6 @@ Follow these steps to set up and run the bot on your own server:
    ```bash
    https://api.telegram.org/bot<YOUR_BOT_TOKEN>/setWebhook?url=https://yourdomain.com/terabox.php
 - Replace <BOT_TOKEN> from the terabox.php in line 3, Save file and its done 👍
+
+### **3. Video Tutorial**
+[Watch the video](video.mp4)
