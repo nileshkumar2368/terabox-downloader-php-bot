@@ -28,7 +28,8 @@ Follow these steps to set up and run the bot on your own server:
 
 ### **2. Installation**
 
-1. Clone this repository to your server:
+1. Setup Webhook
+- Open this manually on browser by filling you details in the link
    ```bash
-   git clone https://github.com/yourusername/terabox-bot.git
-   cd terabox-bot
+   https://api.telegram.org/bot<YOUR_BOT_TOKEN>/setWebhook?url=https://yourdomain.com/terabox.php
+- Replace <BOT_TOKEN> from the terabox.php in line 3, Save file and its done 👍
