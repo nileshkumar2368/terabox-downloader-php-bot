@@ -1,6 +1,6 @@
 # 📦 TeraBox Link Processor Bot
 
-A simple Telegram bot built with PHP that processes TeraBox links and provides direct download links. This bot uses a custom API to fetch direct links and shortens them using TinyURL.
+A simple Telegram bot built with PHP that processes TeraBox links and provides direct download links.
 
 ---
 
@@ -8,14 +8,17 @@ A simple Telegram bot built with PHP that processes TeraBox links and provides d
 - Responds to `/start` with a welcome message.
 - Processes any link shared by the user.
 - Retrieves direct download links for TeraBox links.
-- Shortens the direct links using TinyURL.
 - Easy to deploy and lightweight.
 
 ---
 
 ## 🚀 Getting Started
 
-Follow these steps to set up and run the bot on your own server:
+1. Setup Webhook
+- Open this manually on browser by filling you details in the link
+   ```bash
+   https://api.telegram.org/bot<YOUR_BOT_TOKEN>/setWebhook?url=https://yourdomain.com/terabox.php
+- Replace <BOT_TOKEN> from the terabox.php in line 3, Save file and its done 👍
 
 ---
 
@@ -26,13 +29,5 @@ Follow these steps to set up and run the bot on your own server:
 
 ---
 
-### **2. Installation**
-
-1. Setup Webhook
-- Open this manually on browser by filling you details in the link
-   ```bash
-   https://api.telegram.org/bot<YOUR_BOT_TOKEN>/setWebhook?url=https://yourdomain.com/terabox.php
-- Replace <BOT_TOKEN> from the terabox.php in line 3, Save file and its done 👍
-
-### **3. Video Tutorial**
+### **2. Video Tutorial**
 [Watch the video](video.mp4)
