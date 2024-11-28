@@ -30,4 +30,9 @@ A simple Telegram bot built with PHP that processes TeraBox links and provides d
 ---
 
 ### **2. Video Tutorial**
-[Watch the video](video.mp4)
+Watch the tutorial on YouTube:
+
+[![YouTube Tutorial](https://img.youtube.com/vi/UHt9BWWTexc/maxresdefault.jpg)](https://youtu.be/UHt9BWWTexc)
+
+Click the thumbnail or [here](https://youtu.be/UHt9BWWTexc) to watch the video.
+
