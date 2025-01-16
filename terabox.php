@@ -1,6 +1,6 @@
 <?php
 // Telegram bot token
-$botToken = "<BOT_TOKEN>";
+$botToken = "7433420155:AAEzE7D-IroJzerr-pdaBqe1VCnn5HHwyrk";
 $apiUrl = "https://api.telegram.org/bot$botToken";
 
 // Function to send a message
